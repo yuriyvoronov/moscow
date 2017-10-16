@@ -1,0 +1,12 @@
+.footer
+{
+    min-height: 180px;
+    align-items: center; 
+    align-content: space-between;
+    flex-wrap: wrap;
+    &-logo
+    {
+        flex: 1 1 350px;
+    }
+    
+}

@@ -1,0 +1,14 @@
+{
+  "name": "moscow",
+  "vboersion": "0.1.0",
+  "dependencies": {
+    "jquery": "2.2.0",
+    "normalize-css": "normalize.css#^7.0.0",
+    "motion-ui": "^1.2.3",
+    "font-awesome": "Font-Awesome#^4.7.0",
+    "bootstrap-sass-grid": "^4.0.1",
+    "components-font-awesome": "^4.7.0",
+    "owl.carousel": "owl-carousel2#^2.2.1",
+    "lightbox2": "^2.9.0"
+  }
+}

@@ -1,0 +1,81 @@
+$charcoal: #383836;
+
+.header
+{
+   
+    min-height: 180px;
+    align-items: center; 
+    align-content: space-between;
+    &-logo
+    {
+        flex: 1 1 300px;
+    }   
+    &__phone
+    {
+            flex: 1 1 300px;
+        
+       p
+        {
+            font-family: NEXTARTSemiBold;
+            font-size: 30px;
+        color: $charcoal;
+        } 
+    }
+    &-info
+    {
+        flex: 1 1 300px; 
+        font-family: OpenSansSemiBold;
+        font-size: 24px;
+        color: $charcoal;
+        
+        &__item
+        {
+            margin: 11px 0;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            align-items: center;
+        .fa
+        {
+                padding-top: 4px;
+                padding-right: 20px;
+                font-size: 25px;
+            
+        } 
+        p
+            {
+                margin: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+     .header
+    {
+        flex-wrap: wrap;
+        &-info
+        {
+            flex: none;
+            display: block;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+    }
+}
+@media (max-width: 992px) { 
+    .header
+    {
+        flex-wrap: wrap;
+        &-info
+        {
+            flex: none;
+            display: block;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+    }
+    
+}

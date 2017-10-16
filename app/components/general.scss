@@ -1,0 +1,49 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    &-flex
+    {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+}  
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container
+    { 
+        width: 760px;
+        margin: 0 auto; 
+        text-align: inherit;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container
+    {
+        width: 980px;
+        margin: 0 auto;
+        text-align: inherit;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container
+    {
+        width: 1170px;
+        margin: 0 auto;
+        text-align: inherit;
+    }
+
+}

@@ -1,0 +1,59 @@
+#fourth {
+  background: #0c6946; }
+
+.fourth {
+  padding-bottom: 95px;
+  padding-top: 16px; }
+  .fourth h2 {
+    font-family: NEXTARTSemiBold;
+    margin-top: 42px;
+    text-align: center;
+    font-size: 30px;
+    position: relative; }
+    .fourth h2:after {
+      content: "";
+      position: absolute;
+      width: 366px;
+      border-bottom: 5px solid #0c6946;
+      left: 50%;
+      margin-left: -183px;
+      bottom: -25px; }
+  .fourth a {
+    text-decoration: none; }
+  .fourth h2 {
+    color: #ffffff; }
+    .fourth h2:after {
+      border-bottom: 5px solid #b8b8b8; }
+  .fourth-carousel {
+    margin-top: 85px; }
+  .fourth-item {
+    width: 300px;
+    height: 371px;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px 0 #000000;
+    max-width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px; }
+    .fourth-item__name {
+      display: table;
+      height: 129px;
+      width: 100%;
+      text-align: center; }
+      .fourth-item__name h3 {
+        text-align: center;
+        font-family: NEXTARTSemiBold;
+        font-size: 20px;
+        text-decoration: none;
+        color: #101010;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center; }
+
+@media (max-width: 992px) {
+  .fourth-item {
+    height: 350px; }
+  .fourth__name h3 {
+    font-size: 24px; }
+  .fourth-carousel {
+    max-width: 80%;
+    margin: 85px auto 0; } }

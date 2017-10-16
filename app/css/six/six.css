@@ -1,0 +1,18 @@
+.six {
+  justify-content: center; }
+  .six h2 {
+    font-family: NEXTARTSemiBold;
+    margin-top: 42px;
+    text-align: center;
+    font-size: 30px;
+    position: relative; }
+    .six h2:after {
+      content: "";
+      position: absolute;
+      width: 366px;
+      border-bottom: 5px solid #0c6946;
+      left: 50%;
+      margin-left: -183px;
+      bottom: -25px; }
+  .six__map {
+    margin-top: 80px; }

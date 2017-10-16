@@ -1,0 +1,77 @@
+#third {
+  background: #dcdcdc;
+  padding: 1px 0 0px; }
+
+.third {
+  background: url(../img/third_bg.png) no-repeat bottom right; }
+  .third h2 {
+    font-family: NEXTARTSemiBold;
+    margin-top: 42px;
+    text-align: center;
+    font-size: 30px;
+    position: relative; }
+    .third h2:after {
+      content: "";
+      position: absolute;
+      width: 366px;
+      border-bottom: 5px solid #0c6946;
+      left: 50%;
+      margin-left: -183px;
+      bottom: -25px; }
+  .third-list {
+    padding-top: 30px; }
+    .third-list h3 {
+      text-align: center;
+      font-family: OpenSansSemiBold;
+      font-size: 20px;
+      background-color: #f6f6f6;
+      box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.35);
+      width: 600px;
+      max-width: 80%;
+      display: block;
+      margin: 8px auto;
+      padding: 18px 0;
+      border-left: 12px solid #0c6946; }
+  .third-propose {
+    margin: 53px 0px 0px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    padding-bottom: 39px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .third-propose p {
+      font-family: OpenSansSemiBold;
+      font-size: 24px;
+      flex: 3 3 55%;
+      color: #101010; }
+    .third-propose__btn {
+      border-radius: 6.2px;
+      padding: 15px 30px 15px;
+      background-image: -webkit-linear-gradient(bottom, #0c6946, #158e61);
+      background-image: -o-linear-gradient(bottom, #0c6946, #158e61);
+      background-image: linear-gradient(to top, #0c6946, #158e61);
+      font-family: OpenSansSemiBold;
+      font-size: 23px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+      border: 2px solid #0c6946;
+      max-width: 270px;
+      height: 25px;
+      flex: 1 1 300px;
+      display: block;
+      margin: 0 35px; }
+      .third-propose__btn:hover {
+        background-image: linear-gradient(to top, #0c6946, #0a5338); }
+
+@media (max-width: 992px) {
+  .third-propose p {
+    flex: 3 3 70%; }
+  .third-propose__btn {
+    margin: 0 auto; } }
